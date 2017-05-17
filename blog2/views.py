@@ -6,7 +6,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-	return render(request,'index.html',{'name':'waking yang'})
+	return render(request,'blog2/index.html',{'name':'waking yang'})
 
 def students(request):
-	return render(request,'students.html',{'count':45})
+	return render(request,'blog2/students.html',{'count':45})
